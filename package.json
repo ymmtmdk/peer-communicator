@@ -1,6 +1,6 @@
 {
   "name": "peer-communicator",
-  "version": "0.0.2",
+  "version": "0.0.4",
   "description": "peer communicator",
   "main": "dist/bundle.js",
   "scripts": {
@@ -8,8 +8,6 @@
     "build": "webpack",
     "server": "NODE_ENV=dev webpack-dev-server"
   },
-  "author": "ymmtmdk",
-  "license": "MIT",
   "dependencies": {
     "events": "^1.1.1",
     "skyway-peerjs": "^0.4.0"
@@ -17,8 +15,15 @@
   "devDependencies": {
     "awesome-typescript-loader": "^3.2.1",
     "source-map-loader": "^0.2.1",
-    "typescript": "^2.4.1",
-    "webpack": "^3.2.0",
-    "webpack-dev-server": "^2.5.1"
-  }
+    "typescript": "^2.4.2",
+    "webpack": "^3.3.0",
+    "webpack-dev-server": "^2.6.1"
+  },
+  "author": "ymmtmdk",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ymmtmdk/peer-communicator.git"
+  },
+  "homepage": "https://github.com/ymmtmdk/peer-communicator"
 }
